@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
@@ -6,7 +6,7 @@ import AboutPhoneTimeline from '@/components/sections/about/AboutPhoneTimeline';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
-import MetricCardThree from '@/components/sections/metric/MetricCardThree';
+import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
@@ -14,7 +14,7 @@ import FaqBase from '@/components/sections/faq/FaqBase';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Trophy, Zap, ShoppingBag, Ticket, Star, Crown, BarChart3, Flag, Heart, Handshake, HelpCircle, Newspaper, Mail, Twitter, Instagram, Facebook, Youtube } from "lucide-react";
+import { Trophy, Zap, ShoppingBag, Ticket, Star, Crown, BarChart3, Flag, Heart, Handshake, HelpCircle, Newspaper, Mail, Twitter, Instagram, Facebook, Youtube, Users, Calendar, MapPin } from "lucide-react";
 
 export default function WorldCupPage() {
   return (
@@ -231,25 +231,25 @@ export default function WorldCupPage() {
           metrics={[
             {
               id: "teams",
-              icon: "Users",
+              icon: Users,
               title: "Participating Teams",
               value: "48"
             },
             {
               id: "matches",
-              icon: "Calendar",
+              icon: Calendar,
               title: "Total Matches",
               value: "104"
             },
             {
               id: "stadiums",
-              icon: "MapPin",
+              icon: MapPin,
               title: "Host Stadiums",
               value: "16"
             },
             {
               id: "capacity",
-              icon: "Users",
+              icon: Users,
               title: "Total Capacity",
               value: "5.5M+"
             }
