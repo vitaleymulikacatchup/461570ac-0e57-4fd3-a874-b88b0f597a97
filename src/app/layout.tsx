@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     siteName: "2026 FIFA World Cup",
     images: [
       {
-        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650703162-l3klawji.jpg",
+        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651266861-16ax3481.jpg",
         alt: "2026 FIFA World Cup logo and stadium"
       }
     ],
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "2026 FIFA World Cup - USA, Canada & Mexico",
     description: "Experience the biggest World Cup ever with 48 teams competing across North America.",
-    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650703162-l3klawji.jpg"]
+    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651266861-16ax3481.jpg"]
   },
   robots: {
     index: true,

@@ -1,5 +1,4 @@
-"use client";
-
+"use client"
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import HeroBillboard from '@/components/sections/hero/HeroBillboard';
@@ -7,7 +6,7 @@ import AboutPhoneTimeline from '@/components/sections/about/AboutPhoneTimeline';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import PricingCardTwo from '@/components/sections/pricing/PricingCardTwo';
-import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
+import MetricCardThree from '@/components/sections/metric/MetricCardThree';
 import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
@@ -15,7 +14,7 @@ import FaqBase from '@/components/sections/faq/FaqBase';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Trophy, Zap, ShoppingBag, Ticket, Star, Crown, BarChart3, Flag, Heart, Handshake, HelpCircle, Newspaper, Mail, Twitter, Instagram, Facebook, Youtube, Users, Calendar, MapPin } from "lucide-react";
+import { Trophy, Zap, ShoppingBag, Ticket, Star, Crown, BarChart3, Flag, Heart, Handshake, HelpCircle, Newspaper, Mail, Twitter, Instagram, Facebook, Youtube } from "lucide-react";
 
 export default function WorldCupPage() {
   return (
@@ -54,7 +53,7 @@ export default function WorldCupPage() {
             { text: "View Teams", href: "teams" },
             { text: "Buy Tickets", href: "tickets" }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650703162-l3klawji.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651266861-16ax3481.jpg"
           imageAlt="2026 FIFA World Cup stadium with participating teams"
         />
       </div>
@@ -69,11 +68,11 @@ export default function WorldCupPage() {
             { text: "Host Cities", href: "cities" }
           ]}
           phoneOne={{
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650704461-40424qac.jpg",
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651267899-xdhvb00c.jpg",
             imageAlt: "USA team preparation for 2026 World Cup"
           }}
           phoneTwo={{
-            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650705904-rxy9hkrv.jpg",
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651268977-gm7l4x15.jpg",
             imageAlt: "Canada team training for home World Cup"
           }}
           textboxLayout="default"
@@ -96,11 +95,11 @@ export default function WorldCupPage() {
               title: "Smart Stadiums",
               description: "State-of-the-art venues with AI-powered crowd management, sustainable energy systems, and immersive fan technologies across all host cities.",
               phoneOne: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650711877-88uuykw0.jpg",
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651273789-q5s10ps1.jpg",
                 imageAlt: "Modern smart stadium technology"
               },
               phoneTwo: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650713241-ny4zzkn3.jpg",
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651275024-3sd9i9m4.jpg",
                 imageAlt: "Advanced broadcasting setup"
               }
             },
@@ -109,11 +108,11 @@ export default function WorldCupPage() {
               title: "Mobile Experience",
               description: "Complete World Cup companion app with real-time match updates, augmented reality features, ticket management, and social fan interactions.",
               phoneOne: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650714435-03g8cumn.jpg",
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651276080-u9qmlhke.jpg",
                 imageAlt: "World Cup mobile app interface"
               },
               phoneTwo: {
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650708275-8wiisp9o.jpg",
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651270749-xggl28f2.jpg",
                 imageAlt: "Live match tracking feature"
               }
             }
@@ -133,21 +132,21 @@ export default function WorldCupPage() {
               id: "jersey-usa",
               name: "USA National Team Jersey 2026",
               price: "$89.99",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650704461-40424qac.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651267899-xdhvb00c.jpg",
               imageAlt: "USA national team official jersey"
             },
             {
               id: "jersey-canada",
               name: "Canada Home Kit 2026",
               price: "$85.99",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650705904-rxy9hkrv.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651268977-gm7l4x15.jpg",
               imageAlt: "Canada national team home jersey"
             },
             {
               id: "jersey-mexico",
               name: "Mexico Away Jersey 2026",
               price: "$87.99",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650707035-jp2m50pu.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651269829-svj3s1dw.jpg",
               imageAlt: "Mexico national team away jersey"
             }
           ]}
@@ -232,25 +231,25 @@ export default function WorldCupPage() {
           metrics={[
             {
               id: "teams",
-              icon: Users,
+              icon: "Users",
               title: "Participating Teams",
               value: "48"
             },
             {
               id: "matches",
-              icon: Calendar,
+              icon: "Calendar",
               title: "Total Matches",
               value: "104"
             },
             {
               id: "stadiums",
-              icon: MapPin,
+              icon: "MapPin",
               title: "Host Stadiums",
               value: "16"
             },
             {
               id: "capacity",
-              icon: Users,
+              icon: "Users",
               title: "Total Capacity",
               value: "5.5M+"
             }
@@ -273,7 +272,7 @@ export default function WorldCupPage() {
               name: "Team Brazil",
               role: "5-time Champions",
               description: "The most successful team in World Cup history, Brazil brings their trademark flair and technical excellence to North America.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650708275-8wiisp9o.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651270749-xggl28f2.jpg",
               imageAlt: "Brazil national football team"
             },
             {
@@ -281,7 +280,7 @@ export default function WorldCupPage() {
               name: "Team Argentina",
               role: "Defending Champions",
               description: "Fresh from their Qatar 2022 victory, Argentina aims to defend their title with Messi potentially making his final World Cup appearance.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650709318-em1ybbr4.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651271621-8tnac4lw.jpg",
               imageAlt: "Argentina national football team"
             },
             {
@@ -289,7 +288,7 @@ export default function WorldCupPage() {
               name: "Team Germany",
               role: "4-time Champions",
               description: "Germany's renowned efficiency and tactical discipline make them perennial favorites in every World Cup tournament.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650710618-fumw598u.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651272868-hsxt0ixc.jpg",
               imageAlt: "Germany national football team"
             }
           ]}
@@ -312,7 +311,7 @@ export default function WorldCupPage() {
               role: "Lifelong Fan",
               company: "Mexico City Supporters",
               rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650715956-9bro6my9.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651277217-dtdu6erj.jpg",
               imageAlt: "Carlos Rodriguez, Mexico football fan"
             },
             {
@@ -321,7 +320,7 @@ export default function WorldCupPage() {
               role: "Season Ticket Holder",
               company: "Toronto FC Supporter",
               rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650717064-ylj869e4.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651278084-65rs3dqm.jpg",
               imageAlt: "Sarah Thompson, Canada football fan"
             },
             {
@@ -330,7 +329,7 @@ export default function WorldCupPage() {
               role: "USA Supporter",
               company: "American Outlaws",
               rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650718312-3eezh2dl.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651278999-36nxvt67.jpg",
               imageAlt: "Michael Johnson, USA football fan"
             },
             {
@@ -339,7 +338,7 @@ export default function WorldCupPage() {
               role: "Youth Coach",
               company: "Seattle Sounders Academy",
               rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650719326-5trn6ggl.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651279897-1uwx1qso.jpg",
               imageAlt: "Emma Wilson, football coach and fan"
             },
             {
@@ -348,7 +347,7 @@ export default function WorldCupPage() {
               role: "Fan Group Leader",
               company: "Los Angeles FC Supporters",
               rating: 5,
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650720531-dui5qr26.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651281124-3zi5dbqe.jpg",
               imageAlt: "Diego Martinez, LAFC supporter"
             }
           ]}
@@ -365,14 +364,14 @@ export default function WorldCupPage() {
           tag="Partners"
           tagIcon={Handshake}
           logos={[
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650721631-gcqu8hbr.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650723128-gezvcpso.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650724598-29qkhpkg.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650726088-gh0rnede.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650727076-14vh8dbk.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650728302-qqeex4xi.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650729474-q21kdk9b.jpg",
-            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650730577-cid9zp50.jpg"
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651281976-xc0qp8zc.jpg",
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651283638-n7mq4qsr.jpg",
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651284648-wjbcvr4r.jpg",
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651285574-nl0e7b7p.jpg",
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651286786-8v7d882p.jpg",
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651287705-hxgr2r6n.jpg",
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651288458-ewe53clk.jpg",
+            "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651289299-r0m2goyf.jpg"
           ]}
           textboxLayout="default"
           speed={30}
@@ -430,10 +429,10 @@ export default function WorldCupPage() {
               category: "History",
               title: "World Cup Legacy: From Uruguay 1930 to 2026",
               excerpt: "Exploring the rich history of the FIFA World Cup and how the 2026 tournament will make history as the first tri-nation hosted event.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650731836-t05y4fzb.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651290153-3saee40n.jpg",
               imageAlt: "World Cup trophy and historical moments",
               authorName: "Maria Santos",
-              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650715956-9bro6my9.jpg",
+              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651277217-dtdu6erj.jpg",
               date: "December 15, 2024"
             },
             {
@@ -441,10 +440,10 @@ export default function WorldCupPage() {
               category: "Technology",
               title: "Smart Stadiums: The Future of Football",
               excerpt: "How cutting-edge technology will transform the fan experience at 2026 World Cup venues across North America.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650732668-x7vncgpa.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651290967-yrbikj43.jpg",
               imageAlt: "Modern football stadium with technology integration",
               authorName: "James Mitchell",
-              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650717064-ylj869e4.jpg",
+              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651278084-65rs3dqm.jpg",
               date: "December 12, 2024"
             },
             {
@@ -452,10 +451,10 @@ export default function WorldCupPage() {
               category: "Analysis",
               title: "2026 World Cup: Team Predictions and Analysis",
               excerpt: "Early analysis of potential contenders and how the expanded 48-team format will impact competition strategies.",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650733671-dk8lq2sk.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651292086-ms0fw7mk.jpg",
               imageAlt: "Football team tactical analysis",
               authorName: "Alex Chen",
-              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650718312-3eezh2dl.jpg",
+              authorAvatar: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651278999-36nxvt67.jpg",
               date: "December 10, 2024"
             }
           ]}
@@ -473,7 +472,7 @@ export default function WorldCupPage() {
           inputPlaceholder="Enter your email address"
           buttonText="Subscribe"
           termsText="By subscribing, you agree to receive FIFA World Cup updates and can unsubscribe at any time."
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763650735415-o9ulr9b6.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763651293223-yhzql0l5.jpg"
           imageAlt="2026 World Cup newsletter signup"
           mediaPosition="right"
         />
